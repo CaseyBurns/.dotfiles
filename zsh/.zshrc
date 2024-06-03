@@ -17,3 +17,7 @@ ZSH_THEME="agnoster"
 source $ZSH/oh-my-zsh.sh
 
 # User Configuration
+
+alias c=clear
+alias cat='bat --paging=never'
+
