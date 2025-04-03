@@ -35,7 +35,10 @@ install starship
 # https://starship.rs/guide/
 curl -sS https://starship.rs/install.sh | sh
 ```
-
+install taskfile
+```
+sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
+```
 
 stow dot files
 ```bash

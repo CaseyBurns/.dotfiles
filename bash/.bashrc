@@ -92,7 +92,7 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -CF'
 alias c=clear
-alias cat='bat --paging=never'
+alias cat='batcat --paging=never'
 alias d='docker'
 alias dc="docker-compose"
 alias k="kubectl"
