@@ -35,7 +35,17 @@ install starship
 # https://starship.rs/guide/
 curl -sS https://starship.rs/install.sh | sh
 ```
+
+NOTE: use PIPX to install global python tools
+
+install python cli tools
+```
+pipx install poetry
+```
+
 install taskfile
+- *this can be doe with pipx*
+
 ```
 sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
 ```
