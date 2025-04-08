@@ -11,3 +11,8 @@ email=CaseyBurns@users.noreply.github.com
 	helper = !/usr/bin/gh auth git-credential
 [init]
 	defaultBranch = main
+[alias]
+	s = status
+	last  = log -1
+    lo = log --oneline
+    l5 = log --oneline -5

@@ -36,18 +36,32 @@ install starship
 curl -sS https://starship.rs/install.sh | sh
 ```
 
-NOTE: use PIPX to install global python tools
+**NOTE: use PIPX to install global python tools**
 
-install python cli tools
+NOT SURE ABOUT THIS...
+
+py cli tools can be installed via apt or pipx...
+
 ```
+sudo apt install python3-pytest
+# or
 pipx install poetry
 ```
+or 
 
 install taskfile
 - *this can be doe with pipx*
 
 ```
 sh -c "$(curl --location https://taskfile.dev/install.sh)" -- -d -b /usr/local/bin
+```
+install helm
+```bash
+curl https://baltocdn.com/helm/signing.asc | gpg --dearmor | sudo tee /usr/share/keyrings/helm.gpg > /dev/null
+sudo apt-get install apt-transport-https --yes
+echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/helm.gpg] https://baltocdn.com/helm/stable/debian/ all main" | sudo tee /etc/apt/sources.list.d/helm-stable-debian.list
+sudo apt-get update
+sudo apt-get install helm
 ```
 
 stow dot files

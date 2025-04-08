@@ -96,6 +96,10 @@ alias cat='batcat --paging=never'
 alias d='docker'
 alias dc="docker-compose"
 alias k="kubectl"
+alias py="python"
+alias pm="python -m "
+alias t="task"
+alias g="git"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
